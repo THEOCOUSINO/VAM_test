@@ -126,7 +126,7 @@ List AtTimesMaintenancePolicy::update(VamModel* model) {
         }
     }
     int t=1;
-    if (differentTypeIfCM && (current_type==-1)) {
+    if (differentTypeIfCM && (current_type==-1)){
         t=2;
     }
     res["type"]= t+get_from_type();
@@ -247,4 +247,3 @@ List MaintenancePolicyList::update(VamModel* model) {
     }
     return res;
 };
-
