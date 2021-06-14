@@ -282,4 +282,3 @@ protected:
 MaintenancePolicy* newMaintenancePolicy(List policy);
 
 #endif //RCPP_MAINTENANCE_POLICY_H
-
